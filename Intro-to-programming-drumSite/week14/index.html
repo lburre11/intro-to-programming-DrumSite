@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>   
+        <div class="container"> 
+            <audio id="snare" src="sounds/snare.mp3" preload="auto"></audio>
+            <script src="../StudentFiles/sounds/test.js"></script>
+
+            <button onclick="clickSnare(); id='snareButton'">  <img src="images/snare.png" alt="snare drum"></button>
+        </div>
+        <div>
+            <audio id="kick" src="sounds/kick-bass.mp3" preload="auto"></audio>
+            <button onclick="clickKick();"> <img src="images/kick.png" alt="kick drum"></button>
+        </div>
+         <div> 
+            <audio id="crash" src="sounds/crash.mp3" preload="auto"></audio>
+            <button onclick="clickCrash();"> <img src="images/crash.png" alt="crash cymbal"></button>
+        </div>
+         <div> 
+            <audio id="tom1" src="sounds/tom-1.mp3" preload="auto"></audio>
+            <button onclick="clickTom1();"> <img src="images/tom1.png" alt="tom 1"></button>
+        </div>
+         <div> 
+            <audio id="tom2" src="sounds/tom-2.mp3" preload="auto"></audio>
+            <button onclick="clickTom2();"> <img src="images/tom2.png" alt="tom 2"></button>
+        </div>
+         <div> 
+            <audio id="tom3" src="sounds/tom-3.mp3" preload="auto"></audio>
+            <button onclick="clickTom3();"> <img src="images/tom3.png" alt="tom 3"></button>
+        </div>
+         <div> 
+            <audio id="tom4" src="sounds/tom-4.mp3" preload="auto"></audio>
+            <button onclick="clickTom4();"> <img src="images/tom4.png" alt="tom 4"></button>
+        </div>
+    </div>
+    <script>
+        function clickSnare() {
+            var snare = document.getElementById("snare");
+            console.log("hi");
+            snare.play();
+        }
+        function clickKick() {
+            var kick = document.getElementById("kick");
+            kick.play();
+        }
+        function clickCrash() {
+            var crash = document.getElementById("crash");
+            crash.play();
+        }
+        function clickTom1() {
+            var tom1 = document.getElementById("tom1");
+            tom1.play();
+        }
+        function clickTom2() {
+            var tom2 = document.getElementById("tom2");
+            tom2.play();
+        }
+        function clickTom3() {
+            var tom3 = document.getElementById("tom3");
+            tom3.play();
+        }
+        function clickTom4() {
+            var tom4 = document.getElementById("tom4");
+            tom4.play();
+        }
+    </script>
+</body>
+</html>

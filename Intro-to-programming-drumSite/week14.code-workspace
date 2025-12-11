@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "week14",
+			"path": "../intro-to-programming-web/week14"
+		},
+		{
+			"name": "StudentFiles",
+			"path": "../Downloads/StudentFiles"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "week14"
+	}
+}
